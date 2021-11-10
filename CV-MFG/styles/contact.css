@@ -1,0 +1,67 @@
+.root {
+    background: #202028;
+    width: 50%;
+    height: 500px;
+    margin: 180px auto;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.root h1 {
+    background: transparent;
+    margin-top: 100px;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.root ul {
+    background: transparent;
+    margin-top: 130px;
+    margin-bottom: 400px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.root img {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+/*
+    RESPONSIVE CONTACT
+*/
+@media screen and (max-width: 1000px) {
+    .root {
+        min-width: 400px;
+    }
+    .root h1 {
+        background: transparent;
+        margin-top: 150px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .root ul {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .root img {
+        background: transparent;
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,71 @@
+/*  HEADEER     */
+
+header img{
+    padding-left: 50px;
+    width: 70%;
+}
+
+nav a{
+    font-weight: 600;
+    font-size: 150%;
+}
+
+.navbar-nav li:not(:last-child){
+    margin-right: 25px;
+}
+/*Contenedor  */
+p{
+    margin-top: 25px;
+    font-size: 18px;
+}
+.contenedor{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quienesSomos{
+    margin-right: 100px;
+}
+
+.mision{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+/*slide */
+#slice{
+    padding-top: 20px;
+    width: 25%;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E4E4E4;
+    margin-bottom: 0px;
+}
+
+footer img{
+    margin-left: 490px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 5%;
+}
+
+.texto{
+    padding-top:20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}

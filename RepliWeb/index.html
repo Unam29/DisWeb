@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>RepliWeb</title>
+        <link rel="icon" type="image/x-icon" href="./img/supertux.png">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded font-light:bg-gray-800">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <div class="group float-left mt-3 w-52 inline-flex justify-center items-center bg-blue-500 cursor-pointer text-center p-1 hover:bg-gray-200">
+                <span class="text-white text-2xl animate-engranaje-lento group-hover:text-black group-hover:animate-paAbajo symbol">S</span>
+                <h3 class="ml-4 text-white font-bold text-4xl text-center group-hover:text-black group-hover:animate-palaDerecha">BLOG</h3>
+                </div>
+                <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="group font flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-3xl md:font-medium">
+                    <li>
+                    <a href="#" class="text-white hover:text-4xl hover:text-blue-400 transition-all">Inicio</a>
+                    </li>
+                <li>
+                    <a href="#" class="text-white hover:text-4xl hover:text-blue-400 transition-all">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white hover:text-4xl hover:text-blue-400 transition-all">Formación</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white hover:text-4xl hover:text-blue-400 transition-all">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <section class="wrap wrap-content">
+            <section id="info">
+                <div class="
+                w-11/12 h-28 border-solid border-8 border-white shadow-md ml-14 m-5 bebasneue text-white text-4xl overflow-hidden"
+                id="banner">
+                    <h1 class="
+                    block
+                    w-7/12
+                    text-5xl
+                    m-6
+                    ml-28">CURSOS DE DESARROLLO WEB</h1>
+                </div>
+                <section class="wrap wrap-content">
+                    <section id="info">
+                        <div class="banner">
+                            <h1>CURSOS DE DESARROLLO WEB</h1>
+                        </div>
+                            <div class="cartas">
+                            <div class="carta">
+                                <p class="symbol icono">H</p>
+                                <h2 class="category">Desarrollo Web</h2>
+                                <p class="description">
+                                    Aprende los principales lenguajes para desarrollar webs ¡Conviertete en un webmaster!
+                                </p>
+                            </div>
+                            <div class="carta">
+                                <p class="symbol icono">_</p>
+                                <h2 class="category">Sistemas operativos</h2>
+                                <p class="description">
+                                    Aprende a administrar sisteams Linux y Windows
+                                </p>
+                            </div>
+                            <div class="carta">
+                                <p class="symbol icono">S</p>
+                                <h2 class="category">Hardware</h2>
+                                <p class="description">
+                                    Conoce los entresijos del hardware
+                                </p>
+                            </div>
+                            <div class="carta">
+                                <p class="symbol icono">u</p>
+                                <h2 class="category">Redes e Internet</h2>
+                                <p class="description">
+                                    Aprende a configurar y administrar redes informáticas y servidores
+                                </p>
+                            </div>
+                            <div class="carta">
+                                <p class="symbol icono">a</p>
+                                <h2 class="category">Bases de datos</h2>
+                                <p class="description">
+                                    Aprende a montar y administrar bases de datos
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="clearfix"></div>
+                    <aside class="lateral">
+                        <h3 class="mt-0">BUSCAR</h3>
+                        <div class="search">
+                            <form>
+                                <input class="texto" type="text" />
+                                <input class="boton" type="button"  class="symbol" />
+                            </form>
+                        </div>
+                        <h3>LOGIN</h3>
+                        <div id="login" class="aside-box">
+                            <form>
+                                <label id="user" class="symbol">U</label>
+                                <input type="email" />
+                                <label id="password" class="symbol">w</label>
+                                <input type="password" />
+                                <input type="submit" value="Entrar" />
+                                <input type="reset" value="Limpiar" />
+                                <a href="#">Registrate aquí</a>
+                                <a href="#">¿Has olvidado tu contraseña?</a>
+                            </form>
+                        </div>
+                        <h3>REDES SOCIALES</h3>
+                        <div id="social" class="aside-box">
+                            <div class="twitter">
+                                <a href="#" class="symbol">t</a>
+                                <p class="overlay">
+                                    Twitter
+                                </p>
+                            </div>
+                            <div class="facebook">
+                                <a href="#" class="symbol">f</a>
+                                <p class="overlay">
+                                    Facebook
+                                </p>
+                            </div>
+                            <div class="youtube">
+                                <a href="#" class="symbol">y</a>
+                                <p class="overlay">
+                                    Youtube
+                                </p>
+                            </div>
+                        </div>
+                        <h3>PATROCINADORES</h3>
+                        <div id="sponsors" class="aside-box">
+                        </div>
+                    </aside>
+    </body>
+</html>
